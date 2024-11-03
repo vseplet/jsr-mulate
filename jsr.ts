@@ -2,4 +2,4 @@ import test from "https://raw.githubusercontent.com/vseplet/artbrain404/refs/hea
 
 console.log(import.meta)
 
-await test.init();
+await test.init(import.meta);
