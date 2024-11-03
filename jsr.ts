@@ -1,5 +1,3 @@
-import test from "https://raw.githubusercontent.com/vseplet/artbrain404/refs/heads/main/test.ts";
+import di from "jsr:@vseplet-test/dynamic-imports@0.1.0";
 
-console.log(import.meta)
-
-await test.init(import.meta);
+await di.init(import.meta, "./cfg.ts");
